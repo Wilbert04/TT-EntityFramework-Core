@@ -5,4 +5,8 @@
     <RootNamespace>Toturial_EntityFrameworkC</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="5.0.3" />
+  </ItemGroup>
+
 </Project>
