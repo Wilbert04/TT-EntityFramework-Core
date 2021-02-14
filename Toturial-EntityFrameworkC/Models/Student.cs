@@ -12,6 +12,7 @@ namespace Toturial_EntityFrameworkC.Models
         public int StudentId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Name { get; internal set; }
 
         public Student()
         {
